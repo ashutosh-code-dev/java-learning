@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Mathod_Multiple_Parameters {
+public class Method_Multiple_Parameters {
     public static void main(String[] argn){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First number:");
@@ -12,6 +12,8 @@ public class Mathod_Multiple_Parameters {
         System.out.println(result);
         sc.close();
         System.out.println(isEven(10));
+
+        
     }
     static void add(int a , int b){
         System.out.println("Addition of A and B :" + (a+b) );
@@ -27,4 +29,7 @@ public class Mathod_Multiple_Parameters {
     static boolean isEven(int number){
         return number %2 == 0;
     }
-}
+
+    
+    }
+
